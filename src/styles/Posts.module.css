@@ -1,0 +1,54 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main ul {
+  padding: 0 0;
+}
+
+.main ul li {
+  list-style: none;
+}
+
+.main ul li a {
+  text-decoration: none;
+}
+
+.blogtitle,
+.publishedAt {
+  color: black;
+}
+
+.blogtitle:hover {
+  color: cornflowerblue;
+}
+
+.publishedAt {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 415px) {
+  .main ul {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 391px) {
+  .main ul {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 376px) {
+  .main ul {
+    text-align: center;
+  }
+}

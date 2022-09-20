@@ -1,0 +1,92 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+}
+
+/* about css aria*/
+
+.myimage {
+  padding: 0 20px;
+}
+.myphoto {
+  border-radius: 75px;
+}
+.myname {
+  font-family: "Poppins";
+  font-size: 30px;
+}
+.txtwrap {
+  word-break: keep-all;
+}
+/* about css aria*/
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: black;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .myimage {
+    padding: 0 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 415px) {
+  .myimage {
+    padding: 0 0;
+    text-align: center;
+  }
+  .centerall {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 391px) {
+  .myimage {
+    padding: 0 0;
+    text-align: center;
+  }
+  .centerall {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 376px) {
+  .myimage {
+    padding: 0 0;
+    text-align: center;
+  }
+  .centerall {
+    text-align: center;
+  }
+}

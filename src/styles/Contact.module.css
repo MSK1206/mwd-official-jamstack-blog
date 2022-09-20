@@ -1,0 +1,33 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formrun_width {
+  min-width: 85vw;
+}
+
+@media screen and (max-width: 415px) {
+  .formrun_width {
+    min-width: 95vw;
+  }
+}
+@media screen and (max-width: 391px) {
+  .formrun_width {
+    min-width: 95vw;
+  }
+}
+@media screen and (max-width: 376px) {
+  .formrun_width {
+    min-width: 90vw;
+  }
+}

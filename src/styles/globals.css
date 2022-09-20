@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Poppins&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+/* Navbar Components CSS */
+.navbar {
+  font-family: "Poppins";
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: white;
+}
+
+#navbarNav {
+  justify-content: end;
+}
+
+.navbar-nav li {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-right: 50px;
+}
+
+.fl-r {
+  float: right;
+}
+.blandname {
+  font-size: 25px;
+  padding-top: 14px;
+  padding-left: 10px;
+}
+.blandname-mobile {
+  font-family: "Poppins";
+  float: right;
+  margin-left: 15px;
+  display: none;
+}
+
+.navbar li a {
+  color: black;
+  text-decoration-line: none;
+}
+
+.bs-icon-size {
+  font-size: 45px;
+}
+
+.github-icon-size {
+  font-size: 30px;
+}
+
+i {
+  color: black;
+}
+
+i:hover {
+  color: cornflowerblue;
+}
+
+@media (max-width: 897px) {
+  .navbar-nav li {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .github-icon-size {
+    font-size: 30px;
+  }
+}
+@media (max-width: 845px) {
+  .navbar-nav li {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .github-icon-size {
+    font-size: 30px;
+  }
+}
+@media (max-width: 813px) {
+  .navbar-nav li {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .github-icon-size {
+    font-size: 30px;
+  }
+}
+@media (max-width: 668px) {
+  .navbar-nav li {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .github-icon-size {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .blandname {
+    display: none;
+  }
+  .blandname-mobile {
+    display: inherit;
+  }
+  .navbar-nav li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .card .btn {
+    font-size: 15px;
+  }
+  .github-icon-size {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 391px) {
+  .blandname {
+    display: none;
+  }
+  .blandname-mobile {
+    display: inherit;
+  }
+  .navbar-nav li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .card .btn {
+    font-size: 15px;
+  }
+  .github-icon-size {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .blandname {
+    display: none;
+  }
+  .blandname-mobile {
+    display: inherit;
+  }
+  .navbar-nav li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .card .btn {
+    font-size: 15px;
+  }
+  .bs-icon-size {
+    font-size: 40px;
+  }
+  .github-icon-size {
+    font-size: 30px;
+  }
+}
