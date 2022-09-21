@@ -12,16 +12,24 @@
   align-items: center;
 }
 
-.main ul {
-  padding: 0 0;
-}
-
-.main ul li {
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 800px;
   list-style: none;
+  padding: 0;
 }
 
-.main ul li a {
-  text-decoration: none;
+.postcard {
+  max-width: 300px;
+}
+
+.blogtitle {
+  font-size: 20px;
+  inline-size: 300px;
+  word-break: keep-all;
 }
 
 .blogtitle,
@@ -35,6 +43,18 @@
 
 .publishedAt {
   opacity: 0.8;
+}
+
+.main ul {
+  padding: 0 0;
+}
+
+.main ul li {
+  list-style: none;
+}
+
+.main ul li a {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 415px) {

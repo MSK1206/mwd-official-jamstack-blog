@@ -27,7 +27,7 @@ const Posts: NextPage<Props> = ({ blog }) => {
       />
       <main className={styles.main}>
         <div className={styles.posts}>
-          <ul className={styles.poststyle}>
+          <ul className={styles.grid}>
             {blog.map((blog) => (
               <li key={blog.id}>
                 <Link href={`/blog/${blog.id}`}>
