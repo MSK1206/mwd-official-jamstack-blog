@@ -16,6 +16,8 @@ const SeoHead: NextPage<Seo> = ({
   const title = `${pageTitle} - ${siteTitle}`;
   const desc = pageDesc;
   const sitetype = og_type;
+  const imgW: number = 1200;
+  const imgH: number = 630;
   const ogImg = imgUrl;
   return (
     <Head>
@@ -26,6 +28,8 @@ const SeoHead: NextPage<Seo> = ({
       <meta property="og:type" content={sitetype} />
       <meta property="og:url" content={url} />
       <meta property="og:image" content={ogImg} />
+      <meta property="og:image:width" content={String(imgW)} />
+      <meta property="og:image:height" content={String(imgH)} />
       <meta property="og:site_name" content={siteTitle} />
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={url} />
