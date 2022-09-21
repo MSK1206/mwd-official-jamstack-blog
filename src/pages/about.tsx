@@ -8,8 +8,8 @@ const About: NextPage = () => {
     <div className={styles.container}>
       <SeoHead
         pageTitle="About"
-        siteTitle="Demo Site"
-        pageDesc="Nextjs + microCMS"
+        siteTitle="Matsushita Web Design"
+        pageDesc="Matsushita Web Design 概要"
         og_type="website"
         imgUrl="/website.jpg"
       />

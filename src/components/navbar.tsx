@@ -21,8 +21,8 @@ export default function Navbar() {
               height="60"
               className="mwdlogo"
             />
-            <h1 className="blandname">Demo Site</h1>
-            <h1 className="blandname-mobile">Demo</h1>
+            <h1 className="blandname">Matsushita Web Design</h1>
+            <h1 className="blandname-mobile">MWD</h1>
           </a>
         </Link>
         <button

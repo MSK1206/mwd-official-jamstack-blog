@@ -18,8 +18,8 @@ const BlogId: NextPage<Props> = ({ blog }: any) => {
     <div className={styles.container}>
       <SeoHead
         pageTitle={blog.title}
-        siteTitle="Demo Site"
-        pageDesc="Nextjs + microCMS"
+        siteTitle="Matsushita Web Design"
+        pageDesc="Matsushita Web Design ブロクページ"
         og_type="blog"
         imgUrl={blog.eyecatch.url}
       />

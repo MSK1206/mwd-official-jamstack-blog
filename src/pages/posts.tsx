@@ -20,8 +20,8 @@ const Posts: NextPage<Props> = ({ blog }) => {
     <div className={styles.container}>
       <SeoHead
         pageTitle="投稿一覧"
-        siteTitle="Demo Site"
-        pageDesc="Nextjs + microCMS"
+        siteTitle="Matsushita Web Design"
+        pageDesc="Matsushita Web Design 記事投稿一覧"
         og_type="website"
         imgUrl="/website.jpg"
       />
