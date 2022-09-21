@@ -9,10 +9,12 @@ export default function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        ©2022 MSK1206.{" "}
-        <span className={styles.logo}>
-          <Image src="/mwd.svg" alt="mwd Logo" width={15} height={15} />
+        &copy; 2022{" "}
+        <span className={styles.default_credit}>
+          &nbsp;Matsushita Web Design&nbsp;
         </span>
+        <span className={styles.mobile_credit}>&nbsp;MWD&nbsp;</span> All Right
+        Reserved.
       </a>
     </footer>
   );

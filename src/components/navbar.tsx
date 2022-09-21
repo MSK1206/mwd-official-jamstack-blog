@@ -10,16 +10,19 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg sticky-top navbar-light">
       <div className="container-fluid">
         <Link href="/">
-          <a className="navbar-brand" onClick={hideToggle}>
+          <a
+            className="navbar-brand d-inline-flex align-items-center justify-content-center"
+            onClick={hideToggle}
+          >
             <Image
               src="/mwd.svg"
               alt="msk1206 logo"
               width="60"
               height="60"
-              className="d-inline-block align-text-top"
+              className="mwdlogo"
             />
-            <h1 className="fl-r blandname">Demo Site</h1>
-            <h1 className="blandname-mobile mt-3">Demo</h1>
+            <h1 className="blandname">Demo Site</h1>
+            <h1 className="blandname-mobile">Demo</h1>
           </a>
         </Link>
         <button

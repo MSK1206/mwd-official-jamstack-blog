@@ -17,80 +17,56 @@ a {
   box-sizing: border-box;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-/* Navbar Components CSS */
+/* Bootstrap Navbar Components CSS */
 .navbar {
   font-family: "Poppins";
   padding-top: 0;
   padding-bottom: 0;
   background-color: white;
 }
-
 #navbarNav {
   justify-content: end;
 }
-
-.navbar-nav li {
-  font-size: 20px;
-  letter-spacing: 1px;
-  margin-right: 50px;
-}
-
-.fl-r {
-  float: right;
-}
 .blandname {
   font-size: 25px;
-  padding-top: 14px;
-  padding-left: 10px;
+  margin: 22.5px auto;
+  margin-left: 15px;
 }
 .blandname-mobile {
-  font-family: "Poppins";
-  float: right;
+  font-size: 25px;
+  margin: 22.5px auto;
   margin-left: 15px;
   display: none;
 }
-
+.nav-item {
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 25px 10px;
+  min-width: 10vw;
+  text-align: center;
+}
 .navbar li a {
   color: black;
   text-decoration-line: none;
 }
-
-.bs-icon-size {
-  font-size: 45px;
-}
-
+/* About Page is Github Bootstrap-icons */
 .github-icon-size {
   font-size: 30px;
 }
-
 i {
   color: black;
 }
-
 i:hover {
   color: cornflowerblue;
 }
 
 @media (max-width: 897px) {
   .navbar-nav li {
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+    margin: 0 0;
+    text-align: start;
+  }
+  .nav-item {
+    padding: 15px 15px;
   }
   .github-icon-size {
     font-size: 30px;
@@ -98,8 +74,11 @@ i:hover {
 }
 @media (max-width: 845px) {
   .navbar-nav li {
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+    margin: 0 0;
+    text-align: start;
+  }
+  .nav-item {
+    padding: 15px 15px;
   }
   .github-icon-size {
     font-size: 30px;
@@ -107,8 +86,11 @@ i:hover {
 }
 @media (max-width: 813px) {
   .navbar-nav li {
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+    margin: 0 0;
+    text-align: start;
+  }
+  .nav-item {
+    padding: 15px 15px;
   }
   .github-icon-size {
     font-size: 30px;
@@ -116,8 +98,11 @@ i:hover {
 }
 @media (max-width: 668px) {
   .navbar-nav li {
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+    margin: 0 0;
+    text-align: start;
+  }
+  .nav-item {
+    padding: 15px 15px;
   }
   .github-icon-size {
     font-size: 30px;
@@ -131,11 +116,11 @@ i:hover {
     display: inherit;
   }
   .navbar-nav li {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 0 0;
+    text-align: start;
   }
-  .card .btn {
-    font-size: 15px;
+  .nav-item {
+    padding: 15px 15px;
   }
   .github-icon-size {
     font-size: 30px;
@@ -149,11 +134,11 @@ i:hover {
     display: inherit;
   }
   .navbar-nav li {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 0 0;
+    text-align: start;
   }
-  .card .btn {
-    font-size: 15px;
+  .nav-item {
+    padding: 15px 15px;
   }
   .github-icon-size {
     font-size: 30px;
@@ -167,11 +152,11 @@ i:hover {
     display: inherit;
   }
   .navbar-nav li {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 0 0;
+    text-align: start;
   }
-  .card .btn {
-    font-size: 15px;
+  .nav-item {
+    padding: 15px 15px;
   }
   .bs-icon-size {
     font-size: 40px;

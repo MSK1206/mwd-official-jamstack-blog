@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { NextPage } from "next";
+import SeoHead from "@/components/seohead";
 import Link from "next/link";
 import { client } from "../libs/client";
 import type { Blog } from "../types/blog";
@@ -9,7 +10,6 @@ import timezone from "dayjs/plugin/timezone";
 dayjs.extend(utc);
 dayjs.extend(timezone);
 import styles from "../styles/Posts.module.css";
-import SeoHead from "@/components/seohead";
 
 type Props = {
   blog: Blog[];
@@ -20,7 +20,7 @@ const Posts: NextPage<Props> = ({ blog }) => {
     <div className={styles.container}>
       <SeoHead
         pageTitle="投稿一覧"
-        tempTitle="Demo Site"
+        siteTitle="Demo Site"
         pageDesc="Nextjs + microCMS"
         og_type="website"
         imgUrl="/website.jpg"

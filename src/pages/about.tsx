@@ -1,5 +1,5 @@
-import SeoHead from "@/components/seohead";
 import type { NextPage } from "next";
+import SeoHead from "@/components/seohead";
 import Image from "next/image";
 import styles from "../styles/About.module.css";
 
@@ -8,7 +8,7 @@ const About: NextPage = () => {
     <div className={styles.container}>
       <SeoHead
         pageTitle="About"
-        tempTitle="Demo Site"
+        siteTitle="Demo Site"
         pageDesc="Nextjs + microCMS"
         og_type="website"
         imgUrl="/website.jpg"

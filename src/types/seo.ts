@@ -1,6 +1,6 @@
 export type Seo = {
   pageTitle: string;
-  tempTitle: string;
+  siteTitle: string;
   pageDesc: string;
   og_type: string;
   imgUrl: string;

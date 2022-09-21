@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
+import styles from "../styles/404.module.css";
 
 const Custom404: NextPage = () => {
   return (
-    <div>
-      <main className="main">
-        <h1>ページがありません | 404 not found.</h1>
+    <div className={styles.container}>
+      <main className={styles.main}>
+        <h5>ページがありません | 404 not found.</h5>
       </main>
     </div>
   );

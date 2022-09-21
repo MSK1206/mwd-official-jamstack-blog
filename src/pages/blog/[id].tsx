@@ -18,7 +18,7 @@ const BlogId: NextPage<Props> = ({ blog }: any) => {
     <div className={styles.container}>
       <SeoHead
         pageTitle={blog.title}
-        tempTitle="Demo Site"
+        siteTitle="Demo Site"
         pageDesc="Nextjs + microCMS"
         og_type="blog"
         imgUrl={blog.eyecatch.url}

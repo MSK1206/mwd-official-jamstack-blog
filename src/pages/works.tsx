@@ -7,7 +7,7 @@ const Works: NextPage = () => {
     <div className={styles.container}>
       <SeoHead
         pageTitle="Works"
-        tempTitle="Demo Site"
+        siteTitle="Demo Site"
         pageDesc="Nextjs + microCMS"
         og_type="website"
         imgUrl="/website.jpg"

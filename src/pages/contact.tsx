@@ -1,9 +1,10 @@
-import SeoHead from "@/components/seohead";
 import type { NextPage } from "next";
+import SeoHead from "@/components/seohead";
 import { useEffect } from "react";
 import styles from "../styles/Contact.module.css";
 
 const Contact: NextPage = () => {
+  const FormrunID: string = `${process.env.NEXT_PUBLIC_FORMRUN_FORM_ID}`;
   useEffect(() => {
     const head = document.getElementsByTagName("head")[0] as HTMLElement;
     const scriptUrl = document.createElement("script");
@@ -17,7 +18,7 @@ const Contact: NextPage = () => {
     <div className={styles.container}>
       <SeoHead
         pageTitle="Contact"
-        tempTitle="Demo Site"
+        siteTitle="Demo Site"
         pageDesc="Nextjs + microCMS"
         og_type="website"
         imgUrl="/website.jpg"
@@ -26,7 +27,7 @@ const Contact: NextPage = () => {
         <div className={styles.formrun_width}>
           <div
             className="formrun-embed"
-            data-formrun-form="@yahoo-1661696164"
+            data-formrun-form={FormrunID}
             data-formrun-redirect="true"
           />
         </div>

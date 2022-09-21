@@ -5,6 +5,7 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 .footer a {
@@ -14,4 +15,19 @@
   flex-grow: 1;
   color: inherit;
   text-decoration: none;
+  font-size: small;
+  color: antiquewhite;
+}
+
+.mobile_credit {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .default_credit {
+    display: none;
+  }
+  .mobile_credit {
+    display: inherit;
+  }
 }

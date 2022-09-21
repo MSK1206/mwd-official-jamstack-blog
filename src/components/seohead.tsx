@@ -5,17 +5,17 @@ import { useRouter } from "next/router";
 
 const SeoHead: NextPage<Seo> = ({
   pageTitle,
-  tempTitle,
+  siteTitle,
   pageDesc,
   og_type,
   imgUrl,
 }) => {
-  const title = `${pageTitle} - ${tempTitle}`;
+  const router = useRouter();
+  const siteUrl: string = `${process.env.NEXT_PUBLIC_SITE_URL}`;
+  const url = `${siteUrl}${router.asPath}`;
+  const title = `${pageTitle} - ${siteTitle}`;
   const desc = pageDesc;
   const sitetype = og_type;
-  const siteUrl: string = process.env.DEFAULT_SITE_URL || "";
-  const router = useRouter();
-  const url = `${siteUrl}${router.asPath}`;
   const ogImg = imgUrl;
   return (
     <Head>
@@ -26,7 +26,7 @@ const SeoHead: NextPage<Seo> = ({
       <meta property="og:type" content={sitetype} />
       <meta property="og:url" content={url} />
       <meta property="og:image" content={ogImg} />
-      <meta property="og:site_name" content={tempTitle} />
+      <meta property="og:site_name" content={siteTitle} />
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={url} />
       <meta property="twitter:title" content={pageTitle} />
