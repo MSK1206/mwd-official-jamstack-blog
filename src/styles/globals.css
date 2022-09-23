@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Poppinsfamily=Zen+Antique+Soft&display=swap");
 
 html,
 body {
@@ -19,7 +19,7 @@ a {
 
 /* Bootstrap Navbar Components CSS */
 .navbar {
-  font-family: "Poppins";
+  font-family: Poppins, Zen Antique Soft;
   padding-top: 0;
   padding-bottom: 0;
   background-color: white;
@@ -46,6 +46,7 @@ a {
   text-align: center;
 }
 .navbar li a {
+  letter-spacing: 3.5px;
   color: black;
   text-decoration-line: none;
 }
@@ -55,9 +56,14 @@ a {
 }
 i {
   color: black;
+  margin: auto 1rem;
 }
 i:hover {
   color: cornflowerblue;
+}
+/* About Page Progress-bar CSS */
+#Progress_Html {
+  min-height: 1.8rem;
 }
 
 @media (max-width: 897px) {
