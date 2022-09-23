@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Poppinsfamily=Zen+Antique+Soft&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Poppinsfamily&display=swap");
 
 html,
 body {
@@ -19,7 +19,7 @@ a {
 
 /* Bootstrap Navbar Components CSS */
 .navbar {
-  font-family: Poppins, Zen Antique Soft;
+  font-family: "Poppins";
   padding-top: 0;
   padding-bottom: 0;
   background-color: white;
