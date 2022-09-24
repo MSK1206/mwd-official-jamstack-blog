@@ -62,8 +62,8 @@ i:hover {
   color: cornflowerblue;
 }
 /* About Page Progress-bar CSS */
-#Progress_Html {
-  min-height: 1.8rem;
+.progress {
+  min-width: 300px;
 }
 
 @media (max-width: 897px) {
