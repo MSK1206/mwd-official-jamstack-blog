@@ -15,3 +15,39 @@
 .title {
   font-size: 2rem;
 }
+
+@media (max-width: 897px) {
+  .post {
+    max-width: 90vw;
+  }
+}
+@media (max-width: 845px) {
+  .post {
+    max-width: 90vw;
+  }
+}
+@media (max-width: 813px) {
+  .post {
+    max-width: 90vw;
+  }
+}
+@media (max-width: 668px) {
+  .post {
+    max-width: 90vw;
+  }
+}
+@media screen and (max-width: 415px) {
+  .post {
+    max-width: 90vw;
+  }
+}
+@media screen and (max-width: 391px) {
+  .post {
+    max-width: 90vw;
+  }
+}
+@media screen and (max-width: 376px) {
+  .post {
+    max-width: 90vw;
+  }
+}
