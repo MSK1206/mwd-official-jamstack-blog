@@ -13,11 +13,15 @@ const Home: NextPage = () => {
         imgUrl="/website.jpg"
       />
       <main className={styles.main}>
-        <h1 className={styles.top}>
-          <span className={styles.toptext}>N</span>ext.js&nbsp;+&nbsp;
-          <span className={styles.toptext}>T</span>ypeScript
-        </h1>
-        <h6 className={styles.top}>microCMS Jamstack Blog</h6>
+        <div className={styles.wrapper}>
+          <h1 className={styles.top}>
+            <span className={styles.toptext}>N</span>ext.js&nbsp;+&nbsp;
+            <span className={styles.toptext}>T</span>ypeScript
+          </h1>
+        </div>
+        <div className={styles.wrapper}>
+          <h6 className={styles.top}>microCMS Jamstack Blog</h6>
+        </div>
       </main>
     </div>
   );

@@ -65,6 +65,9 @@ i:hover {
 .progress {
   min-width: 300px;
 }
+.progress-bar-color {
+  background-color: blueviolet;
+}
 
 @media (max-width: 897px) {
   .navbar-nav li {
