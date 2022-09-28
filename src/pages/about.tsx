@@ -59,10 +59,7 @@ const About: NextPage = () => {
           <div className={styles.skillbar}>
             <h6 className={styles.skillnamebar}>typescript</h6>
             <div className="progress w-100 mt-1 mb-3">
-              <div
-                className="progress-bar col-6 progress-bar-color"
-                role="progressbar"
-              >
+              <div className="progress-bar col-6 bg-info" role="progressbar">
                 50%
               </div>
             </div>
