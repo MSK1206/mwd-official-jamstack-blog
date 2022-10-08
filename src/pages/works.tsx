@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import SeoHead from "@/components/seohead";
 import styles from "../styles/Works.module.css";
+import Button from "@/components/button";
 
 const Works: NextPage = () => {
   return (
@@ -13,7 +14,7 @@ const Works: NextPage = () => {
         imgUrl="/website.jpg"
       />
       <main className={styles.main}>
-        <h1 className={styles.top}>Works Page.</h1>
+        <Button />
       </main>
     </div>
   );
